@@ -6,7 +6,7 @@ The script **program.sh** is to implement the similar function to **tree**, whic
 
 Based on **Ubuntu 16.04**
 
-##How to Use the TEST CASE ?
+## How to Use the TEST CASE ?
 
 Please check the pdf file in **test_case** named **Shell Script Task-Test Guide.pdf**
 
