@@ -1,3 +1,7 @@
+# Author: Victor (Yifei Xu)
+# Date: 05/03/2019
+# Platform: Ubuntu 16.04
+
 source_file="${1}";
 target_file="${2}";
 current_file="$(pwd)";
