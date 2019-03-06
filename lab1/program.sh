@@ -1,7 +1,3 @@
-# Author: Victor (Yifei Xu)
-# Date: 05/03/2019
-# Platform: Ubuntu 16.04
-
 source_file="${1}";
 target_file="${2}";
 current_file="$(pwd)";
@@ -15,23 +11,41 @@ resolveParameter(){
 	enqueue "${filename}";
 
 	cd $current_file;
-	# output_name="${target_file##*/}"
-	# output_path="${target_file%/*}";
-	# if [ ! -d "${output_path}" ]
+
+	output_name="${target_file##*/}"
+	output_path="${target_file%/*}";
+
+
+	if [ "${output_name}" = "${output_path}" ]
+		then
+		output_path="";
+	fi
+	if [ ! -d "${output_path}" -a "${output_path}" != "" ]
+		then
+		mkdir -p "${output_path}";
+	fi
+
+
+	cd "${output_path}";
+	rm -rf "${output_name}";
+	touch "${output_name}";
+	target_file="$(pwd)"/"$output_name";
+	cd "current_file";
+
+	# if [ ! -d "${target_file}" -a "${output_path}" != "" ]
 	# 	then
-	# 	mkdir -p "${output_path}";
+	# 	rm -rf "${target_file}";
+	# 	mkdir -p "${target_file}";
+
 	# fi
 
-	if [ ! -d "${target_file}" ]
-		then
-		mkdir -p "${target_file}";
-	fi
-	cd "${target_file}";
-	target_file="$(pwd)";
-	target_file="${target_file}/answer.file";
-	cd "$current_file";
+	# cd "${target_file}";
 
-	touch "${target_file}";
+	# target_file="$(pwd)";
+	# target_file="${target_file}";
+	# cd "$current_file";
+	# touch "${target_file}";
+
 	echo -n>"${target_file}";
 }
 
