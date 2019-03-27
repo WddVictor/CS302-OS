@@ -1,16 +1,16 @@
-#SUSTech CS302 OS Lab4 Report
+# SUSTech CS302 OS Lab4 Report
 
-####Title:      Toy CPU                                                  
+#### Title:      Toy CPU                                                  
 
-####Student: 徐逸飞 11611209
+#### Student: 徐逸飞 11611209
 
-####Time:    2019/03/12
+#### Time:    2019/03/12
 
-####Experimental Environment:   MacOS Mojave                                                      
+#### Experimental Environment:   MacOS Mojave                                                      
 
-####Summit by: Blackboard
+#### Summit by: Blackboard
 
-###Task：
+### Task：
 
 - Task 1. Create a directory named with your studentID and begin the following task.
 - Task 2. Find out all bugs in source codes
@@ -18,9 +18,9 @@
   instructions, compile and run each program
 - Task 4. Observe the results and finish the questions                           
 
-###Experiments:
+### Experiments:
 
-1. ####Fundamental:
+1. #### Fundamental:
 
   - **What is a process? What is a program? And what is the difference?**: 
 
