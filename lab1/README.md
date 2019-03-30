@@ -1,6 +1,9 @@
+# This lab1 assignment is OUT-OF-DATE because a wrong file is uploaded. I will fix it if I have enough spare time.
+
+
 # Lab1
 
-The script **program.sh** is to implement the similar function to **tree**, which can show the DOC tree of a directory and have a high robustness. 	
+The script **program.sh** is to implement the similar function to **tree**, which can show the DOC tree of a directory and have a high robustness. 
 
 ## Environment
 
