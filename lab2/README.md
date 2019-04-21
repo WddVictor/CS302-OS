@@ -1,18 +1,18 @@
-#SUSTech CS302 OS Lab2 Report
+# SUSTech CS302 OS Lab2 Report
 
-####Title:      Process                                                  
+#### Title:      Process                                                  
 
-####Student: 徐逸飞 11611209
+#### Student: 徐逸飞 11611209
 
-####Time:    2019/03/12
+#### Time:    2019/03/12
 
-####Experimental Environment:   Ubuntu 16.04                                                         
+#### Experimental Environment:   Ubuntu 16.04                                                         
 
-####Deadline: 23:59, 2019-03-13
+#### Deadline: 23:59, 2019-03-13
 
-####Summit by: Blackboard
+#### Summit by: Blackboard
 
-###Task：
+### Task：
 
 Task 1. Use the man command to get the manual of fork, exec, wait, exit, pipe               
 Task 2. Compile and execute fork.c, observe the results and the process                   
